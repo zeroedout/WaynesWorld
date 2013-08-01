@@ -16,6 +16,7 @@
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-panels.min.js"></script>
+		<script src="js/jquery.fitvids.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -26,6 +27,12 @@
 	<body class="no-sidebar">
 
 		<!-- Header Wrapper -->
+															<script>
+														$(document).ready(function(){
+														// Target your .container, .wrapper, .post, etc.
+														$(".video-wrapper").fitVids();
+															});
+													</script>
 			<div id="header-wrapper">
 				<div class="container">
 					<div class="row">
@@ -70,15 +77,15 @@
 													<!-- DEFAULT LINE <a href="http://facebook.com/DreametryDoodle" class="image image-full"><img src="images/pic01.jpg" alt="" /></a> -->
 													<!-- Changing image to vimeo video PLEASE WORK -->
 													<!-- Default Vimeo Format
-														<iframe src="http://player.vimeo.com/video/19723116" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
-														<p><a href="http://vimeo.com/19723116">The External World</a> from <a href="http://vimeo.com/davidoreilly">David OReilly</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-														-->
+														<using JS library FitVids.js and wrapper trick-->
 													<!-- Stolen Trick from  http://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php-->
-													<div class="video-wrapper">
-													  <iframe src="http://player.vimeo.com/video/9184674" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/9184674">Come Home To The Simpsons</a> from <a href="http://vimeo.com/user3099904">devilfish</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+													<div class=video-wrapper>
+														<iframe src="http://player.vimeo.com/video/19723116" width="1280" height="720" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen> </iframe>
+														<p><a href="http://vimeo.com/19723116">The External World</a> from <a href="http://vimeo.com/davidoreilly">David OReilly</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 													</div>
+													
 														<header>
-															<h2>Directors Reel</h2>
+															<h2>Director's Reel</h2>
 															<span class="byline">Watch my shit</span>
 													</article>
 
