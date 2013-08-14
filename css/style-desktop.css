@@ -17,6 +17,8 @@
 	
 	h2
 	{
+		/* Attempting to fix 'Director's Reel - watch my shit' to not blend with fixvids */
+		padding-top:25px;
 		font-size: 1.5em;
 	}
 	
