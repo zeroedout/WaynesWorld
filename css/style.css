@@ -22,7 +22,7 @@
 	 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 		font-weight: 300;
 		background: #252122;
-		background-image: url('images/bg02.png');
+		background-image: url('images/bg02.png'); 
 		color: #5d5d5d;
 	}
     
@@ -603,7 +603,7 @@
 	#main-wrapper
 	{
 		position: relative;
-		background: #f7f7f7 url('images/bg02.png');
+		background: #f7f7f7 /*url('images/bg02.png');*/
 	}
 
 		#main-wrapper:before
