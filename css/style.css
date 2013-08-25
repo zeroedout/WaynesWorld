@@ -25,6 +25,17 @@
 		background-image: url('images/bg02.png');
 		color: #5d5d5d;
 	}
+    
+    blockquote 
+    {
+        font-style:italic !important;
+        font-size:105% !important;
+    }
+
+    figcaption
+    {
+        text-align:right !important;
+    }
 
 	strong, b
 	{
